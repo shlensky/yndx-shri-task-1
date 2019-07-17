@@ -6,12 +6,14 @@ const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development
 module.exports = {
     mode,
     entry: {
-        script: './src/script.js'//,
-        //'template-engine': './src/template-engine.js'
+        script: './src/script.js',
+        'template-engine': './src/template-engine.js'
     },
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'build')
+        path: path.resolve(__dirname, 'build'),
+        libraryTarget: 'umd',
+        globalObject: 'this'
     },
     devServer: {
         publicPath: '/build'
