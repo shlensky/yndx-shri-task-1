@@ -1,0 +1,21 @@
+.commercial {
+  min-height: 430px;
+
+  &__image {
+    height: 180px;
+    background-color: var(--bg-color-default);
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-s);
+  }
+
+  &__page-button {
+    width: 8px;
+    height: 8px;
+    background-color: var(--bg-color-border);
+    margin-right: var(--space-xs);
+  }
+}

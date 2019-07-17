@@ -1,0 +1,13 @@
+.articles {
+  &__pic {
+    width: 170px;
+    height: 120px;
+    display: flex;
+
+    --bg-color-border: #000000;
+  }
+
+  &__content .text_view_link {
+    margin-top: var(--space-xs);
+  }
+}

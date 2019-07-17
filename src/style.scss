@@ -1,0 +1,41 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import "base.blocks/theme";
+
+@import "base.blocks/layout";
+@import "base.blocks/grid";
+
+@import "base.blocks/card";
+@import "base.blocks/form";
+@import "base.blocks/informer";
+@import "base.blocks/icon-plus";
+@import "base.blocks/section";
+@import "base.blocks/list";
+
+@import "base.blocks/text";
+@import "base.blocks/avatar";
+@import "base.blocks/brand-logo";
+@import "base.blocks/placeholder";
+@import "base.blocks/button";
+@import "base.blocks/input";
+@import "base.blocks/image";
+@import "base.blocks/e-accordion";
+
+@import "content.blocks/payment";
+@import "content.blocks/warning";
+@import "content.blocks/product";
+@import "content.blocks/history";
+@import "content.blocks/commercial";
+@import "content.blocks/header";
+@import "content.blocks/onoffswitch";
+@import "content.blocks/footer";
+@import "content.blocks/cover";
+@import "content.blocks/collect";
+@import "content.blocks/articles";
+@import "content.blocks/offer";
+@import "content.blocks/subscription";
+@import "content.blocks/event";

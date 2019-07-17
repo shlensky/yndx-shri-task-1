@@ -1,0 +1,35 @@
+.informer {
+  &_border_all {
+    border: solid 3px var(--bg-color-border);
+  }
+
+  &_view_default {
+    background-color: var(--bg-color-default);
+  }
+}
+
+.informer__content, .informer__action {
+  display: flex;
+  flex-wrap: wrap;
+
+  &_distribute_default {
+    justify-content: flex-start;
+  }
+
+  &_distribute_center {
+    justify-content: center;
+    text-align: center;
+  }
+
+  &_distribute_between {
+    justify-content: space-between;
+  }
+
+  &_space-a_xl {
+    padding: var(--space-xl);
+  }
+
+  &_space-a_xxl {
+    padding: var(--space-xxl);
+  }
+}

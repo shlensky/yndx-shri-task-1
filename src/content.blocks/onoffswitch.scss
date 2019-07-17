@@ -1,0 +1,14 @@
+.onoffswitch {
+  width: 97px;
+  height: 32px;
+  border: solid 2px var(--bg-color-border);
+  padding: 2px;
+
+  &__button {
+    width: 24px;
+    height: 24px;
+    background-color: var(--bg-color-border);
+
+    float: right; // if state == on
+  }
+}
