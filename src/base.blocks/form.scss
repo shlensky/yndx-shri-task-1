@@ -9,7 +9,6 @@
 }
 
 .form__item {
-  display: flex;
 
   &_border_bottom:not(:last-child) {
     border-bottom: solid 3px var(--bg-color-border);
@@ -17,10 +16,12 @@
 
   &_distribute_between {
     justify-content: space-between;
+    display: flex;
   }
 
   &_vertical-align_center {
     align-items: center;
+    display: flex;
   }
 
   @each $val in xxxs xxs s m l xl xxl xxxl xxxxl {
