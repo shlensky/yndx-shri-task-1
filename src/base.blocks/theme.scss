@@ -108,17 +108,16 @@
   }
 
   --header-footer-padding: 0;
-  --gap: var(--space-xxxl);
+
   &_gap_small {
-    --gap: calc(var(--space-xxxl) / 2);
+    --gap: var(--space-xxxl);
   }
 
   @media screen and (max-width: 1144px) {
-    --gap: var(--space-m);
     --header-footer-padding: var(--gap);
 
     &_gap_small {
-      --gap: calc(var(--space-m) / 2);
+      --gap: var(--space-m);
     }
   }
 }
