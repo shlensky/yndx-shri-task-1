@@ -1,3 +1,8 @@
+:root {
+  --image-url-primary: url(./images/image-placeholder-primary.svg);
+  --image-url-inverse: url(./images/image-placeholder-inverse.svg);
+}
+
 .theme {
   background-color: var(--bg-color-default);
 
@@ -11,7 +16,7 @@
     --text-color-ghost: rgba(0, 0, 0, 0.3);
     --text-color-link: #0070f0;
 
-    --image-url: url(./images/image-placeholder-inverse.svg);
+    --image-url: var(--image-url-inverse);
     --image-bg-color: #000000;
   }
 
@@ -25,7 +30,7 @@
     --text-color-ghost: rgba(255, 255, 255, 0.3);
     --text-color-link: #ffffff;
 
-    --image-url: url(./images/image-placeholder-inverse.svg);
+    --image-url: var(--image-url-inverse);
     --image-bg-color: #0070f0;
   }
 
@@ -39,11 +44,11 @@
     --text-color-ghost: rgba(255, 255, 255, 0.3);
     --text-color-link: #0070f0;
 
-    --image-url: url(./images/image-placeholder-inverse.svg);
+    --image-url: var(--image-url-inverse);
     --image-bg-color: #000000;
 
     & .theme_color_project-inverse {
-      --image-url: url(./images/image-placeholder-primary.svg);
+      --image-url: var(--image-url-primary);
       --image-bg-color: #ffffff;
     }
   }
@@ -58,7 +63,7 @@
     --text-color-ghost: rgba(255, 255, 255, 0.3);
     --text-color-link: #ffffff;
 
-    --image-url: url(./images/image-placeholder-inverse.svg);
+    --image-url: var(--image-url-inverse);
   }
 
   &_color_megafon-brand {
@@ -71,7 +76,7 @@
     --text-color-ghost: rgba(255, 255, 255, 0.3);
     --text-color-link: #ffffff;
 
-    --image-url: url(./images/image-placeholder-inverse.svg);
+    --image-url: var(--image-url-inverse);
   }
 
   &_size_default {
