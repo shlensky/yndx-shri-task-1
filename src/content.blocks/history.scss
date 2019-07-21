@@ -2,27 +2,36 @@
   &__details {
     display: flex;
     width :100%;
+    background-color: gold;
   }
 
   &__pic {
     height: 0;
     margin-top: -68px;
+    background-color: darkolivegreen;
   }
 
   &__destination {
     width: 100%;
+    background-color: pink;
   }
 
   &__time {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: blue;
   }
 
   &__label {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    background-color: chartreuse;
+  }
+
+  &__quantity {
+    background-color: magenta;
   }
 
   &__show {
