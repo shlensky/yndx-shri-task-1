@@ -18,6 +18,7 @@
 
     --image-url: var(--image-url-inverse);
     --image-bg-color: #000000;
+    --image-border-color: #000000;
   }
 
   &_color_project-brand {
@@ -32,6 +33,7 @@
 
     --image-url: var(--image-url-inverse);
     --image-bg-color: #0070f0;
+    --image-border-color: var(--bg-color-border);
   }
 
   &_color_project-inverse {
@@ -46,10 +48,12 @@
 
     --image-url: var(--image-url-inverse);
     --image-bg-color: #000000;
+    --image-border-color: #000000;
 
     & .theme_color_project-inverse {
       --image-url: var(--image-url-primary);
       --image-bg-color: #ffffff;
+      --image-border-color: #000000;
     }
   }
 
@@ -64,6 +68,7 @@
     --text-color-link: #ffffff;
 
     --image-url: var(--image-url-inverse);
+    --image-border-color: var(--bg-color-border);
   }
 
   &_color_megafon-brand {
@@ -77,6 +82,7 @@
     --text-color-link: #ffffff;
 
     --image-url: var(--image-url-inverse);
+    --image-border-color: var(--bg-color-border);
   }
 
   &_size_default {
