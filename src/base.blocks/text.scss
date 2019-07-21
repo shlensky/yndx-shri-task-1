@@ -22,7 +22,6 @@
   &_size_l {
     --text-height: var(--text-height-l);
     --line-height: var(--line-height-l);
-    --vertical-align: middle;
     --word-width-s: 28px;
     --word-width-m: 68px;
     --word-width-l: 138px;
@@ -71,7 +70,6 @@
 
 .text__word {
   display: inline-block;
-  vertical-align: var(--vertical-align);
   height: var(--text-height);
   background-color: var(--text-color);
 
