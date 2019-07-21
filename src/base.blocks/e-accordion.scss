@@ -5,12 +5,9 @@
 
   &__more {
     display: none;
-    //height: 0;
-    //overflow: hidden;
 
     &-visible {
-      //display: block;
-      //height: auto;
+      display: block;
     }
   }
 }

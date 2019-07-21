@@ -14,5 +14,17 @@ require('./style.scss');
                 }
             });
         }
-    })
+    });
+
+    document.body.addEventListener('click', function (e) {
+        // Not very efficient, have to handle every click on the page and search e-accordion__short
+        let accordionShort = e.target.closest('.e-accordion__short');
+        if (accordionShort && accordionShort.parentElement) {
+
+            let accordionMore = accordionShort.parentElement.querySelector('.e-accordion__more');
+            if (accordionMore) {
+                accordionMore.classList.toggle('e-accordion__more-visible')
+            }
+        }
+    });
 })();
