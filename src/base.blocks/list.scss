@@ -9,8 +9,6 @@
 }
 
 .list__item {
-  display: flex;
-
   &_border_bottom:not(:last-child) {
     border-bottom: solid 3px var(--bg-color-border);
   }
@@ -21,10 +19,12 @@
 
   &_distribute_between {
     justify-content: space-between;
+    display: flex;
   }
 
   &_vertical-align_center {
     align-items: center;
+    display: flex;
   }
 
   &_indent-t_m {
@@ -39,7 +39,6 @@
 
   &_space-a_l {
     padding: var(--space-l);
-    padding-bottom: var(--space-xxl); // fixme
   }
 
   &_space-b_s {

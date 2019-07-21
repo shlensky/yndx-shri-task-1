@@ -2,39 +2,42 @@
   &__details {
     display: flex;
     width :100%;
-    background-color: gold;
+    //background-color: gold;
   }
 
   &__pic {
     height: 0;
     margin-top: -68px;
-    background-color: darkolivegreen;
+    //background-color: darkolivegreen;
   }
 
   &__destination {
     width: 100%;
-    background-color: pink;
+    //background-color: pink;
   }
 
   &__time {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: blue;
+    //background-color: blue;
+    position: relative;
+    top: -2px;
   }
 
   &__label {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background-color: chartreuse;
+    //background-color: chartreuse;
   }
 
   &__quantity {
-    background-color: magenta;
+    //background-color: magenta;
   }
 
   &__show {
     width: 100%;
+    padding-bottom: 12px;
   }
 }
